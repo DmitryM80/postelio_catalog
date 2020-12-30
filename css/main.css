@@ -189,7 +189,7 @@ button:focus {
 }
 .all-products-btn img {
 	width: 20px;
-	vertical-align: top;
+	vertical-align: sub;
 }
 /*.search-block {
 	padding-left: 70px;

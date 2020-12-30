@@ -428,15 +428,17 @@ button:focus {
 }
 
 .product-card {
+	position: relative;
 	background-color: #fff;
 	border-radius: 25px;
-	overflow: hidden;
+	/*overflow: hidden;*/
 	margin-bottom: 25px;
 }
 .product-card:hover {
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
     box-shadow: 0 0 15px #bbb;
+    z-index: 2;
 
 }
 .product-card:hover .product-favorite {
@@ -452,6 +454,8 @@ button:focus {
 .product-card img {
 	height: 452px;
 	object-fit: cover;
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
 }
 .product-card hr {
 	/*color: #eee;*/
@@ -538,7 +542,7 @@ button:focus {
 	position: absolute;
     z-index: 2;
     background-color: #fff;
-    width: 92%;
+    width: 100%;
     padding: 0 10px;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
@@ -940,7 +944,7 @@ footer {
 		margin-left: 12px;
 	}
 	.product-data {
-		width: 89%;
+		/*width: 89%;*/
 	}
 }
 
@@ -969,7 +973,7 @@ footer {
 		width: 70%;
 	}
 	.product-data {
-		width: 92%;
+		/*width: 92%;*/
 	}
 	.middle-banner {
 		height: auto;
